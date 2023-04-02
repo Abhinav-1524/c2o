@@ -10,44 +10,21 @@ function handleClick_regnow() {
 const About = () => {
   return (
     <>
-      <div className="relative h-screen">
-        <video className="w-100 h-auto object-cover" autoPlay loop muted>
+      <div className="video-container">
+        <video className="video" autoPlay loop muted>
           <source src={about} type="video/mp4" />
         </video>
-
-        <div className="overlay absolute w-full top-100 left-0 flex justify-center items-center text-white text-center">
-          <h1 className="text-4xl md:text-7xl text-orange-500 font-extrabold font-serif"
-         >
-            Technology and Security for One World
-          </h1>
-
-          <Button 
-            style={{
-              position: 'absolute',
-              width: '265px',
-              height: '79px',
-              left: '801px',
-              top: '0px',
-              background: '#1F8FF8',
-              borderRadius: '31px',
-              display: 'flex',
-              justifyContent: 'center',
-              alignItems: 'center',
-              textAlign: 'center',
-              textTransform: 'uppercase',
-              fontFamily: 'NanumMyeongjo',
-              fontWeight: '700',
-              fontSize: '36px',
-              lineHeight: '30px',
-              color: '#FFFFFF'
-            }}
-            variant="primary" 
-            className="px-5 py-3 rounded-pill shadow hover-bg-cover mt-4"
-              
-            onClick={handleClick_regnow}
-          >
-            REGISTER NOW
-          </Button>
+        <div className="overlay">
+          <div className="overlay-content">
+            <h1>Technology and Security for One World</h1>
+            <Button 
+              variant="primary" 
+              className="register-button"
+              onClick={handleClick_regnow}
+            >
+              REGISTER NOW
+            </Button>
+          </div>
         </div>
       </div>
 
@@ -63,7 +40,7 @@ const About = () => {
           <Col>
             <Button 
               variant="primary" 
-              className="px-5 py-3 rounded-pill shadow hover-bg-cover d-md-none" /* this line sets the display property */
+              className="px-5 py-3 rounded-pill shadow hover-bg-cover d-md-none"
               onClick={handleClick_regnow}
             >
               REGISTER NOW

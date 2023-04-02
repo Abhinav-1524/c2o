@@ -1,8 +1,8 @@
 body {
-  background: #3da3d5;
+  background: #02147746;
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
-  color: rgb(53, 53, 53);
+  color: rgb(39, 14, 68);
 }
 
 .title {
@@ -33,7 +33,7 @@ h3 {
   text-decoration: none;
   padding: 0.5em 1em;
   border-radius: 5px;
-  color: white;
+  color: rgb(165, 12, 12);
 }
 
 .workButton {

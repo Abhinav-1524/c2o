@@ -17,20 +17,43 @@
   right: 0;
   bottom: 0;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: rgb(124, 124, 124);
-  opacity: 0.9;
+  background-color: rgba(0, 0, 0, 0.5);
   z-index: 2;
 }
-@media only screen and (min-width:768px){
-  .my-div{
-    display: none;
-    text-align: center;
-  }
+
+.overlay-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-shadow: 0 0 10px #000;
 }
+
+.overlay-content h1 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.overlay-content p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.overlay-content button {
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-top: 2rem;
+}
+
 @media (max-width: 768px) {
   .video-container {
     height: auto;
@@ -51,6 +74,29 @@
     height: auto;
     margin-top: -56.25%; /* negate video container padding */
     padding: 50px 20px;
+  }
+
+  .overlay-content {
+    text-align: center;
+  }
+
+  .overlay-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .overlay-content p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .overlay-content button {
+    font-size: 1.2rem;
+    padding: 0.8rem 1.5rem;
+    margin-top: 1.5rem;
+  }
+  .overlay {
     display: none;
   }
 }
+  
