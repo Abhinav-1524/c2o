@@ -1,5 +1,5 @@
 import React from 'react';
-import about from '../images/vid.mp4';
+import about from '../images/vid.webm';
 import { Button, Container, Row, Col } from 'react-bootstrap';
 import '../styles/vid.css';
 
