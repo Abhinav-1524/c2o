@@ -1,0 +1,44 @@
+.bg-blue-950 {
+    background-color: #0c2340;
+  }
+  
+  .text-neutral-800 {
+    color: #2d3748;
+  }
+  
+  .text-amber-600 {
+    color: #c05621;
+  }
+  
+  .rounded-full {
+    border-radius: 9999px;
+  }
+  
+  button {
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  button:hover {
+    transform: translateY(-1px);
+  }
+  
+  @media (max-width: 767px) {
+    footer {
+      text-align: center;
+    }
+  
+    .grid {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .grid > div {
+      margin-bottom: 1rem;
+    }
+  
+    button {
+      width: 100%;
+    }
+  }
+  
