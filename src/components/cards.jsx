@@ -1,5 +1,23 @@
 import React from 'react';
 import '../styles/cards.css';
+import {motion} from 'framer-motion';
+
+function FadeInWhenVisible({ children }) {
+  return (
+    <motion.div
+      initial="hidden"
+      whileInView="move"
+      viewport={{ once: false }}
+      transition={{ duration: 1 }}
+      variants={{
+        move: { opacity: 1, translateY: 0 },
+      hidden: { opacity: 0, translateY: 100 }
+      }}
+    >
+      {children}
+    </motion.div>
+  );
+}
 
 const Card = ({ title }) => (
   <div className="col-lg-4 col-md-6 mb-4">
@@ -21,11 +39,13 @@ const AboutCards = () => {
         <p className="text-center text-4xl text-amber-600 m-6">
           We bring together the Global Community of Experts, Civil Society Organizations, Stakeholders, Policy Makers, Industry Groups To Deliberate & Create Recommendation Framework for G20. This will involve,
         </p>
+        <FadeInWhenVisible>
         <div className="row justify-content-center">
           <Card title="Presentation of Worldwide Best Practices in Technology for Empowerment AI & Data for Society Transparency, Trust and Disinformation Safety, Security and Resilience." />
           <Card title="Policy Dialogues: Participation in constructive dialogue towards creation of policy recommendations to G20 nations." />
           <Card title="Novel Platform to Amplify the Voice of Thousands of Worldwide Civil Societies." />
         </div>
+        </FadeInWhenVisible>
       </div>
     </div>
   );

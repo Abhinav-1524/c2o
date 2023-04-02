@@ -1,5 +1,5 @@
 import React from 'react';
-import about from '../images/vid.webm';
+import about from '../images/vid.mp4';
 import { Button, Container, Row, Col } from 'react-bootstrap';
 import '../styles/vid.css';
 
@@ -15,7 +15,7 @@ const About = () => {
           <source src={about} type="video/mp4" />
         </video>
 
-        <div className="overlay absolute w-full top-0 left-0 flex justify-center items-center text-white text-center">
+        <div className="overlay absolute w-full top-100 left-0 flex justify-center items-center text-white text-center">
           <h1 className="text-4xl md:text-7xl text-orange-500 font-extrabold font-serif"
          >
             Technology and Security for One World
@@ -27,7 +27,7 @@ const About = () => {
               width: '265px',
               height: '79px',
               left: '801px',
-              top: '610px',
+              top: '0px',
               background: '#1F8FF8',
               borderRadius: '31px',
               display: 'flex',
@@ -51,10 +51,10 @@ const About = () => {
         </div>
       </div>
 
-      <Container className="mt-5 text-center">
+      <Container className="mt-5 text-center d-md-none">
         <Row>
           <Col>
-            <h1 className="text-4xl md:text-7xl text-orange-500 font-extrabold font-serif hidden md:block">
+            <h1 className="text-4xl md:text-7xl text-orange-500 font-extrabold font-serif hidden md:block d-md-none">
               Technology and Security for One World
             </h1>
           </Col>
@@ -63,7 +63,7 @@ const About = () => {
           <Col>
             <Button 
               variant="primary" 
-              className="px-5 py-3 rounded-pill shadow hover-bg-cover"
+              className="px-5 py-3 rounded-pill shadow hover-bg-cover d-md-none" /* this line sets the display property */
               onClick={handleClick_regnow}
             >
               REGISTER NOW

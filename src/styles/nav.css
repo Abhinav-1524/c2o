@@ -6,21 +6,6 @@
     background-color: #10dbff;
     box-shadow: 0 1px 5px rgba(0,0,0,0.1);
   }
-  .navbar {
-    background-color: #3CBDC6 !important; /* Set the background color of the navbar */
-  }
-  
-  @media (max-width: 768px) {
-    .navbar-collapse {
-      background-color: #3CBDC6; /* Set the background color of the mobile menu */
-      border-radius: 10px; /* Add border radius to the mobile menu */
-      position: absolute; /* Position the mobile menu absolutely */
-      top: 96px; /* Set the distance of the mobile menu from the top */
-      left: 0; /* Set the distance of the mobile menu from the left */
-      right: 0; /* Set the distance of the mobile menu from the right */
-      z-index: 999; /* Set a higher z-index to make sure the mobile menu appears on top */
-    }
-  }
   
   .header .logo {
     position: absolute;

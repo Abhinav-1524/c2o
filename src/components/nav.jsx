@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from '../images/logo-c20-amma.svg';
 import { Container, Navbar, Nav } from 'react-bootstrap';
-import "../styles/partnership.css";
+import "../styles/nav.css";
 
 const buttonsid = [
   {
@@ -29,7 +29,7 @@ const buttonsid = [
 const Header = () => {
   return (
     <Navbar 
-     expand="md" sticky="top">
+    expand="md" >
       <Container>
         <Navbar.Brand href="/">
           <img src={logo} alt="logo" className="pl-6" />
