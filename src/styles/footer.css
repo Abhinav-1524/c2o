@@ -1,3 +1,7 @@
+.footer_container{
+  font-family: 'Work Sans', sans-serif;
+}
+
 .bg-blue-950 {
   background-color:#0c2340;
 }
@@ -19,7 +23,7 @@ background-color: #96bbbb;
  
 }
 .text-amber-600 p {
-  font-family: Arial, sans-serif;
+  font-family:'Work Sans', sans-serif;
 }
 
 .bg-amber-102{

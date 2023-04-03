@@ -6,7 +6,7 @@ import cover1 from '../images/cover1.png';
 function Benefits() { 
   return (
     <div className=' m-4 rounded-t-lg:rounded-lg'>
-      <h1 id="benefits" className='text-center text-7xl pt-4 text-blue-950 '>Partnership Benefits 
+      <h1 id="benefits" className='benefits1'>Partnership Benefits 
         <p className='text-center text-4xl text-amber-600 m-6'></p>
       </h1>
       <Container className="my-5 benefits-container">
@@ -36,7 +36,7 @@ function Benefits() {
             <Card className="benefit-card bg-blue-950 text-white rounded-lg h-100 pb-5">
               <Card.Body className="d-flex flex-column justify-content-between">
                 <Card.Title className="benefit-title text-center">CO-PARTNER</Card.Title>
-                <Card.Text className="benefit-description text-center">
+                <Card.Text className="descr">
                   Your logo will be on all the training program Complimentary pass to the event on C20 working group Technology Security and Transparency (TST)
                 </Card.Text>
               </Card.Body>
