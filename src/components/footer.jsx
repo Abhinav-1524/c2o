@@ -7,8 +7,8 @@ function handleClick_contribute() {
 
 const Footer = () => {
   return (
-    <div className="bg-blue-950 m-4 rounded-md shadow-lg rounded-t-lg:rounded-lg flex flex-wrap justify-center translate-y-24">
-      <footer className="bg-aqua-600 text-center w-fit dark:bg-blue-950 lg:text-left">
+    <div className="bg-blue-950 m-4 rounded-md shadow-lg rounded-t-lg:rounded-lg flex flex-wrap justify-center translate-y-24 footer_container">
+      <footer className="bg-aqua-600 text-center dark:bg-blue-950 lg:text-left">
         <div className="container p-6 text-neutral-800 dark:text-neutral-200">
           <div className="flex justify-center mb-6 md:mb-0 sm:flex-col">
             <button

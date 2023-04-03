@@ -16,7 +16,7 @@ const About = () => {
         </video>
         <div className="overlay">
           <div className="overlay-content">
-            <h1>Technology and Security for One World</h1>
+            <h1>Technology And Security For One World</h1>
             <Button 
               variant="primary" 
               className="register-button"

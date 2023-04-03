@@ -64,8 +64,10 @@ const Partnership = () => {
   }, []);
 
   return (
-    <div className='partner '>
+    <div>
+      <div className='title'>
       <h1>Why Partner with us?</h1>
+      </div>
     <div className="container">
       <div className="row">
         {cardsData.map((card) => (
