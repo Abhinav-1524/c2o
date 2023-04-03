@@ -17,7 +17,7 @@ function App() {
    <div className='py-4'>
     <Cardo />
    </div>
-   <Hehe />
+   {/* <Hehe /> */}
    <Partner />
    <Ben />
    <Foot />

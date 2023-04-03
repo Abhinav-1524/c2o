@@ -28,17 +28,16 @@ const buttonsid = [
 
 const Header = () => {
   return (
-    <Navbar 
-    expand="md" >
+    <Navbar expand="md" className="header">
       <Container>
         <Navbar.Brand href="/">
-          <img src={logo} alt="logo" className="pl-6" />
+          <img src={logo} alt="logo" className="logo" />
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle aria-controls="basic-navbar-nav" className="nav-toggle" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="ms-auto">
+          <Nav className="nav-items ms-auto">
             {buttonsid.map((button) => (
-              <Nav.Link href={button.id} className="mx-2" key={button.id}>
+              <Nav.Link href={button.id} className="nav-link mx-2" key={button.id}>
                 {button.button}
               </Nav.Link>
             ))}

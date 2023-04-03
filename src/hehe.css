@@ -1,62 +1,42 @@
-body {
-  background: #02147746;
-  font-family: "Montserrat", sans-serif;
-  font-size: 16px;
-  color: rgb(39, 14, 68);
+.horizontal-timeline .items {
+  border-top: 3px solid #e9ecef;
 }
 
-.title {
-  font-size: 15em;
+.horizontal-timeline .items .items-list {
+  display: block;
+  position: relative;
   text-align: center;
-  font-family: "Bebas Neue", sans-serif;
+  padding-top: 70px;
+  margin-right: 0;
 }
 
-h3 {
-  padding-top: 0.25em;
+.horizontal-timeline .items .items-list:before {
+  content: "";
+  position: absolute;
+  height: 36px;
+  border-right: 2px dashed #dee2e6;
+  top: 0;
 }
 
-.vertical-timeline-element-content {
-  box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25),
-    0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
-  padding: 2em 3em !important;
+.horizontal-timeline .items .items-list .event-date {
+  position: absolute;
+  top: 36px;
+  left: 0;
+  right: 0;
+  width: 75px;
+  margin: 0 auto;
+  font-size: 0.9rem;
+  padding-top: 8px;
 }
 
-.date {
-  color: rgb(201, 251, 255);
-}
+@media (min-width: 1140px) {
+  .horizontal-timeline .items .items-list {
+    display: inline-block;
+    width: 24%;
+    padding-top: 45px;
+  }
 
-#description {
-  margin: 1.5em 0 2em 0;
-}
-
-.button {
-  text-decoration: none;
-  padding: 0.5em 1em;
-  border-radius: 5px;
-  color: rgb(165, 12, 12);
-}
-
-.workButton {
-  background-color: #06d6a0;
-}
-
-.workButton:hover {
-  background-color: #0ac593;
-}
-
-.schoolButton {
-  background-color: #f9c74f;
-}
-
-.schoolButton:hover {
-  background-color: #f3bc3c;
-}
-
-@media only screen and (max-width: 1700px) {
-  .vertical-timeline-element-date {
-    display: block !important;
-    float: none !important;
-    color: rgb(44, 44, 44);
-    margin-top: 1.5em;
+  .horizontal-timeline .items .items-list .event-date {
+    top: -40px;
   }
 }
