@@ -5,11 +5,11 @@ import cover1 from '../images/cover1.png';
 
 function Benefits() { 
   return (
-    <div className=' m-4 rounded-t-lg:rounded-lg'>
-      <h1 id="benefits" className='text-center text-7xl pt-4 text-blue-950 '>Partnership Benefits 
+    <div className='division' >
+      <h1 id="benefits" className='text-center text-7xl pt-5 text-blue-950 '>Partnership Benefits 
         <p className='text-center text-4xl text-amber-600 m-6'></p>
       </h1>
-      <Container className="my-5 benefits-container">
+      <Container className="benefits-container">
         
         <Row>
           <Col md={4} className="mb-4">

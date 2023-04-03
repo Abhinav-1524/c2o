@@ -1,7 +1,7 @@
 /* Navbar styles */
 .navbar {
   font-family: Monaco, monospace;
-  background-color: #02147746;
+  background-color: #f3f4f6;
 }
 
 .navbar .nav-link {
@@ -21,7 +21,7 @@
   padding: 0.25rem 0.5rem;
   font-size: 1.25rem;
   line-height: 1;
-  background-color: #ffffff;
+  background-color: #f3f4f6;
   color: #000;
   border-radius: 0.25rem;
   width: auto;

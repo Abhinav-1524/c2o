@@ -64,7 +64,7 @@ const Partnership = () => {
   }, []);
 
   return (
-    <div>
+    <div className='partner '>
       <h1>Why Partner with us?</h1>
     <div className="container">
       <div className="row">

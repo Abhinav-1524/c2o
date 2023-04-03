@@ -1,27 +1,30 @@
 .g-blue-950 { 
-  background-color: #0d253f;
+  background-color: #F3F4F6;
   color: #c9afaf;
-  font-family: 'Comic Sans MS', cursive;
+  font-family: Copperplate, serif;
 }
 
 .bg-blue-950 p {
   font-family: Arial, sans-serif;
 }
 
-
 .bg-blue-950 {
   background-color: #b10000;
 }
 
-.text-amber-600 {
+.some    {
   color: #ffd166;
+  font-family: Arial, sans-serif;
+  text-align: center;
+
 }
+
+
 
 .card {
   border: none;
   color: #c75757;
-  font-family: 'Comic Sans MS', cursive;
-  
+  font-family: monospace;
 }
 
 .card-body {
@@ -31,8 +34,15 @@
 
 .card-title {
   margin: 0;
-  font-size: 2.5rem;
-  font-weight: 700;
+  font-size: 1.65rem;
+  font-weight: 450;
+  font-family: Monaco, monospace;
+  text-justify: auto;
+  text-rendering: geometricPrecision;
+  
+  text-decoration: dotted;
+  color:rgb(199, 121, 18)
+
 }
 
 @media (max-width: 768px) {
