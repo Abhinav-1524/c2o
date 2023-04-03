@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card } from 'react-bootstrap';
+import { Card, Container } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/partnership.css';
 
@@ -36,6 +36,9 @@ const cardsData = [
     description: 'Help CSO’s get access to an interested, influential, local & international audience.',
   },
 ];
+
+
+
 
 const Partnership = () => {
   const handleIntersection = (entries, observer) => {

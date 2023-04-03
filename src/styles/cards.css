@@ -26,19 +26,25 @@
   border: none;
   color: #c75757;
   font-family: 'Comic Sans MS', cursive;
+  width: 340px;
   
 }
 
+.card_wrap {
+  display: flex;
+}
+
 .card-body {
-  padding: 1rem;
+  width: 340px;
   height: 300px;
 }
 
 .card-title {
   margin: 0;
-  font-size: 1.6rem;
+  font-size: 1.75rem;
   font-weight: 400;
   font-family: American Typewriter;
+  align-items: center;
 
 }
 
@@ -106,5 +112,13 @@
 @media (min-width: 1200px) {
   .container {
     max-width: 1170px;
+  }
+}
+
+@media (max-width: 767px) {
+  .Flex-Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }

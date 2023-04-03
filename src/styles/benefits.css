@@ -9,6 +9,13 @@
 
 }
 
+.btn_wrapper{
+  display: flex;
+  
+  align-items: center;
+  justify-content: center;
+}
+
 .benefits1 {
   text-align: center;
   font-size: calc(1.375rem + 1.5vw);

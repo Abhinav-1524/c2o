@@ -3,6 +3,12 @@ import { Card, Col, Container, Row } from 'react-bootstrap';
 import '../styles/benefits.css';
 import cover1 from '../images/cover1.png';
 
+
+function handleClick_contribute() {
+  window.location.href = 'https://traboda.com/';
+}
+
+
 function Benefits() { 
   return (
     <div className=' m-4 rounded-t-lg:rounded-lg'>
@@ -44,6 +50,14 @@ function Benefits() {
           </Col>
         </Row>
       </Container>
+      <div>
+      <div className='btn_wrapper'>
+          <button onClick={handleClick_contribute} className="con">Contribute now</button>
+
+
+          <button onClick={handleClick_contribute} className="bank">Contribute Through bank Transfer</button>
+        </div>
+      </div>
     </div>
   );
 }

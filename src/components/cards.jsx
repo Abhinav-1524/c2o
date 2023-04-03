@@ -1,11 +1,15 @@
 import React from 'react';
 import '../styles/cards.css';
 
-const Card = ({title}) => (
-  <div className="col-lg-4 col-md-6 mb-4">
-    <div className="card bg-amber-600 rounded-lg overflow-hidden shadow-md transform transition hover:scale-110 ">
-      <div className="card-body bg-amber-600 hover:bg-blue-950 hover:text-amber-600 flex flex-col justify-center">
-        <h3 className="card-title text-center text-2xl">{title}</h3>
+const Card = ({ title }) => (
+  <div className="col-lg-4 col-md-7 col-sm-12 mb-4">
+    <div className="card bg-amber-600 rounded-lg overflow-hidden shadow-md transform transition hover:scale-110">
+      <div className="card-body bg-amber-600 hover:bg-blue-950 hover:text-amber-600 flex flex-col justify-center flex-grow flex-shrink">
+        <h3 className="card-title text-center text-2xl">
+          <div className="card_wrap">
+            <div>{title}</div>
+          </div>
+        </h3>
       </div>
     </div>
   </div>
@@ -13,15 +17,16 @@ const Card = ({title}) => (
 
 const AboutCards = () => {
   return (
-    <div className="g-blue-950 shadow-lg rounded-lg ">
-      <div className="container py-5 ">
+    <div className="g-blue-950 shadow-lg rounded-lg">
+      <div className="container py-5">
         <h1 id="commitment" className="text-center text-7xl pt-32 text-amber-600">
           OUR COMMITMENT, WHAT WE DO
         </h1>
-        <p className="text-center text-2xl text-amber-600 m-6 pb-3 ">
-          We bring together the Global Community of Experts, Civil Society Organizations, Stakeholders, Policy Makers, Industry Groups To Deliberate & Create Recommendation Framework for G20. This will involve,
+        <p className="text-center text-2xl text-amber-600 m-6 pb-3">
+          We bring together the Global Community of Experts, Civil Society Organizations, Stakeholders, Policy Makers,
+          Industry Groups To Deliberate & Create Recommendation Framework for G20. This will involve,
         </p>
-        <div className="Flex-Container">
+        <div className="Flex-Container row">
           <Card title="Presentation of Worldwide Best Practices in Technology for Empowerment AI & Data for Society Transparency, Trust and Disinformation Safety, Security and Resilience." />
           <Card title="Policy Dialogues: Participation in constructive dialogue towards creation of policy recommendations to G20 nations." />
           <Card title="Novel Platform to Amplify the Voice of Thousands of Worldwide Civil Societies." />
