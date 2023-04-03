@@ -9,7 +9,7 @@ function Benefits() {
       <h1 id="benefits" className='benefits1'>Partnership Benefits 
         <p className='text-center text-4xl text-amber-600 m-6'></p>
       </h1>
-      <Container className="my-5 benefits-container">
+      <Container className="benefits-container">
         
         <Row>
           <Col md={4} className="mb-4">

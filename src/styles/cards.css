@@ -6,27 +6,29 @@
   font-family: 'Work Sans', sans-serif;
   background-color: #0d253f;
   color: #c9afaf;
-
 }
 
 .bg-blue-950 p {
   font-family: 'Work Sans', sans-serif;
 }
 
-
 .bg-blue-950 {
   background-color: #b10000;
 }
 
-.text-amber-600 {
+.some    {
   color: #ffd166;
+  font-family: Arial, sans-serif;
+  text-align: center;
+
 }
+
+
 
 .card {
   border: none;
   color: #c75757;
-  font-family: 'Comic Sans MS', cursive;
-  
+  font-family: monospace;
 }
 
 .card-body {
