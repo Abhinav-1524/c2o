@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card } from 'react-bootstrap';
+import { Card, Container } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/partnership.css';
 
@@ -37,6 +37,9 @@ const cardsData = [
   },
 ];
 
+
+
+
 const Partnership = () => {
   const handleIntersection = (entries, observer) => {
     entries.forEach((entry) => {
@@ -64,7 +67,7 @@ const Partnership = () => {
   }, []);
 
   return (
-    <div>
+    <div className='whole'>
       <div className='title'>
       <h1>Why Partner with us?</h1>
       </div>
@@ -88,3 +91,4 @@ const Partnership = () => {
 
 export default Partnership;
 
+  

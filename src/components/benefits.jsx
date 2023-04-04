@@ -3,9 +3,15 @@ import { Card, Col, Container, Row } from 'react-bootstrap';
 import '../styles/benefits.css';
 import cover1 from '../images/cover1.png';
 
+
+function handleClick_contribute() {
+  window.location.href = 'https://traboda.com/';
+}
+
+
 function Benefits() { 
   return (
-    <div className=' m-4 rounded-t-lg:rounded-lg'>
+    <div className=' benefits_whole  rounded-t-lg:rounded-lg'>
       <h1 id="benefits" className='benefits1'>Partnership Benefits 
         <p className='text-center text-4xl text-amber-600 m-6'></p>
       </h1>
@@ -44,6 +50,13 @@ function Benefits() {
           </Col>
         </Row>
       </Container>
+      <div className='btn_wrapper'>
+        <div className='btn_container'>
+            <button onClick={handleClick_contribute} className="con">Contribute now</button>
+             <button onClick={handleClick_contribute} className="bank">Contribute Through bank Transfer</button>
+        </div>
+      </div>
+
     </div>
   );
 }

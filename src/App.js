@@ -6,7 +6,7 @@ import Cardo from './components/cards.jsx'
 import Partner from './components/partnership.jsx'
 import Ben from './components/benefits.jsx'
 import Foot from './components/footer.jsx'
-import Hehe from './hehe'
+import TimeLine from './TimeLine'
 
 
 function App() {
@@ -14,10 +14,10 @@ function App() {
    <>
    <Nav />
    <Vido />
-   <div className='py-4'>
+   <div>
     <Cardo />
    </div>
-   {/* <Hehe /> */}
+   <TimeLine />
    <Partner />
    <Ben />
    <Foot />
