@@ -1,5 +1,4 @@
 import React from 'react';
-import { ReactComponent as Icon } from '../images/file-add-svgrepo-com.svg';
 import {ReactComponent as Icon1} from '../images/agree-svgrepo-com.svg';
 import {ReactComponent as Icon2} from '../images/networking-teamwork-svgrepo-com.svg';
 import {ReactComponent as Icon3} from '../images/sustainable-sustainability-svgrepo-com.svg';
@@ -71,7 +70,7 @@ const Card6 = ({ icon, title, content }) => {
 
 const CardGrid = () => (
   <div>
-  <h1 className='heading'>Why Partner With Us</h1>
+  <h1 className='heading'>WHY PARTNER WITH US</h1>
   <div className="card-grid">
     <div className="card-column">
       <Card1    
