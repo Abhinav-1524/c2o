@@ -7,11 +7,13 @@ const ThreeColumnLayout = () => {
     <div className="container_footer">
       <div className="column">
         <h4 className='heading_footer'>About C20</h4>
+        <hr></hr>
         <p className='footer-items'>Civil 20 Engagement Group provides a platform for Civil Society Organisations (CSO) worldwide to voice the people's aspirations with the world's leaders in G20.
         </p>
       </div>
       <div className="column">
         <h4 className='heading_footer'>Working Groups</h4>
+        <hr></hr>
         <p>
         <ul>
             <li> Education and Digital Transformation</li>
@@ -26,6 +28,7 @@ const ThreeColumnLayout = () => {
         <h4 className='heading_footer'>
             Other Links
         </h4>
+        <hr></hr>
         <p className='footer-items'>
             <ul>
                 <li>News</li>

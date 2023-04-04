@@ -56,3 +56,8 @@ li {
     border-color: white;
     padding: 1rem;
 }
+
+hr{
+    background-color: white;
+    border-width:50%;
+}

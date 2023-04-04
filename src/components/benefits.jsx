@@ -2,6 +2,7 @@ import React from 'react';
 import { Card, Col, Container, Row } from 'react-bootstrap';
 import '../styles/benefits.css';
 import cover1 from '../images/cover1.png';
+import { Textfit } from 'react-textfit';
 
 
 function handleClick_contribute() {
@@ -11,6 +12,7 @@ function handleClick_contribute() {
 
 function Benefits() { 
   return (
+    <Textfit mode='multi'>
     <div className=' benefits_whole  rounded-t-lg:rounded-lg'>
       <h1 id="benefits" className='benefits1'>Partnership Benefits 
         <p className='text-center text-4xl text-amber-600 m-6'></p>
@@ -60,6 +62,7 @@ function Benefits() {
     </div>
 
     </div>
+    </Textfit>
   );
 }
 
