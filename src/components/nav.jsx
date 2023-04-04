@@ -30,7 +30,7 @@ const Header = () => {
   return (
     <Navbar expand="md" className="header">
       <Container>
-        <Navbar.Brand href="/">
+        <Navbar.Brand href="https://www.g20.org/en/">
           <img src={logo} alt="logo" className="logo" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" className="nav-toggle" />

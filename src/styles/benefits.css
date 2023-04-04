@@ -95,6 +95,8 @@ button:hover {
     padding: 50px 0;
 
   }
+
+
   
 
   .benefit-card {
@@ -146,6 +148,16 @@ button:hover {
     width: 13rem;
   }
 
+  .benefit-title {
+    font-size: 1.1rem;
+  }
+
+ 
+
+  .descr-dia {
+    font-size: 15px;
+  }
+  
   .bank{
     width: 17rem;
     height: 4rem;
@@ -164,7 +176,7 @@ button:hover {
   }
 
   .descr {
-    font-size: 17px;
+    font-size: 15px;
   }
 }
 
