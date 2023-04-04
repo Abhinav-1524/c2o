@@ -3,9 +3,9 @@ import '../styles/cards.css';
 
 const Card = ({title}) => (
   <div className="col-lg-4 col-md-6 mb-4">
-    <div className="card bg-amber-600 rounded-lg overflow-hidden shadow-md transform transition hover:scale-110 ">
-      <div className="card-body bg-amber-600 hover:bg-blue-950 hover:text-amber-600 flex flex-col justify-center">
-        <h3 className="card-title text-center text-2xl font-mono">{title}</h3>
+    <div className="card rounded-lg overflow-hidden shadow-md transform transition hover:scale-110">
+      <div className="cards_1 ">
+        <h3 className="car-title text-center text-xl sm:text-2xl">{title}</h3>
       </div>
     </div>
   </div>
@@ -13,9 +13,9 @@ const Card = ({title}) => (
 
 const AboutCards = () => {
   return (
-    <div className="g-blue-950 ">
-      <div className="container py-5 ">
-        <h1 id="commitment" className="text-center text-7xl pt-32 text-amber-600 font-serif">
+    <div className="g-blue-950">
+      <div className="container py-5">
+        <h1 id="commitment" className="text-center text-5xl md:text-7xl pt-32 text-amber-600 font-serif">
           OUR COMMITMENT, WHAT WE DO
         </h1>
         <p className="some">

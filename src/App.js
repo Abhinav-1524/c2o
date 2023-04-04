@@ -14,7 +14,7 @@ function App() {
    <>
    <Nav />
    <Vido />
-   <div className='py-4'>
+   <div>
     <Cardo />
    </div>
    <TimeLine />

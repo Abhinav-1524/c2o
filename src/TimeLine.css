@@ -7,6 +7,15 @@
   z-index: 2;
 }
 
+.time {
+  background-color: #f3f4f6;
+}
+
+.col-6c{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
 .how-it-works.row .col-2 {
   align-self: stretch;
 }
@@ -93,26 +102,26 @@
 
 
 .right-heading{
-  font-family: Copperplate;
+  font-family: Arial, Helvetica, sans-serif;
   text-align: right;
-  color: rgb(217 119 6);
-  font-weight: bold;
-  font-size: xx-large;
+  color: #172554;
+  font-weight: 130px;
+  font-size: large;
 }
 
 .right-para{
   font-family: American Typewriter;
   text-align: right;
-  color: rgb(217 119 6);
+  color: rgb(121, 38, 89);
   font-weight: bold;
   font-size: x-large;
 
 }
 
 .left-heading{
-  font-family: Copperplate serif;
+  font-family: Arial, Helvetica, sans-serif;
   text-align: left;
-  color: rgb(217 119 6);
+  color: rgb(121, 38, 89);
   font-weight: bold;
   font-size: xx-large;
 }
@@ -120,8 +129,13 @@
 .left-para{
   font-family: American Typewriter;
   text-align: left;
-  color: rgb(217 119 6);
+  color: rgb(121, 38, 89);;
   font-weight: bold;
   font-size: x-large;
 
+}
+
+.event_hed {
+  text-align: center;
+  font-size: 3rem;
 }

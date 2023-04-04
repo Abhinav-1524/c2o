@@ -11,7 +11,7 @@ function handleClick_contribute() {
 
 function Benefits() { 
   return (
-    <div className=' m-4 rounded-t-lg:rounded-lg'>
+    <div className=' benefits_whole  rounded-t-lg:rounded-lg'>
       <h1 id="benefits" className='benefits1'>Partnership Benefits 
         <p className='text-center text-4xl text-amber-600 m-6'></p>
       </h1>
@@ -50,14 +50,13 @@ function Benefits() {
           </Col>
         </Row>
       </Container>
-      <div>
       <div className='btn_wrapper'>
-          <button onClick={handleClick_contribute} className="con">Contribute now</button>
-
-
-          <button onClick={handleClick_contribute} className="bank">Contribute Through bank Transfer</button>
+        <div className='btn_container'>
+            <button onClick={handleClick_contribute} className="con">Contribute now</button>
+             <button onClick={handleClick_contribute} className="bank">Contribute Through bank Transfer</button>
         </div>
       </div>
+
     </div>
   );
 }

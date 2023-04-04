@@ -67,7 +67,7 @@ const Partnership = () => {
   }, []);
 
   return (
-    <div>
+    <div className='whole'>
       <div className='title'>
       <h1>Why Partner with us?</h1>
       </div>
@@ -91,3 +91,4 @@ const Partnership = () => {
 
 export default Partnership;
 
+  

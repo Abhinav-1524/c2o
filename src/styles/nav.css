@@ -4,7 +4,7 @@
 .navbar {
   font-family: 'Work Sans', sans-serif;
   font-weight: 500;
-  background-color: #02147746;
+  background-color: #f3f4f6;
 }
 
 .navbar .nav-link {
@@ -14,8 +14,9 @@
   transition: color 0.2s ease-in-out;
 }
 
+
 .navbar .nav-link:hover {
-  color: #f8f8f8;
+  color: #af7200d3;
   text-decoration: underline;
 }
 

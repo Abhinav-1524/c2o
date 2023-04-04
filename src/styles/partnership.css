@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-
-.title{
+.title {
   display: flex;
   justify-content: center;
   font-family: 'Work Sans', sans-serif;
+  font-size: 2rem;
+  margin-bottom: 4rem;
+  padding-top: 6rem;
 }
+
+
 
 .card {
   background-color: #F8F9FA;
@@ -13,42 +17,39 @@
   border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: transform 0.2s ease-in-out;
-}
-.hover:hover {
-  background-color: #eee;
-}
-
-.partner {
-  background-color: #f3f4f6;
+  height: 200px;
+  margin-bottom: 1rem;
+  display: flex;
 }
 
 .card-text {
-  font-size: 1.2rem;
+  font-size: 19.2px;
   font-family: 'Work Sans', sans-serif;
+  color: #393f8b
+  
 }
 
-.font-weight-light {
-  font-weight: 300;
-}
-
-
-.animate__animated {
-  animation-duration: 1s;
-  animation-fill-mode: both;
-}
-
-.animate__fadeInUp {
-  animation-name: fadeInUp;
-}
-
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translate3d(0, 50%, 0);
+@media only screen and (max-width: 768px) {
+  .title {
+    font-size: 1.5rem;
   }
 
-  to {
-    opacity: 1;
-    transform: none;
+  .card-text {
+    font-size: 1rem;
+    width: 12rem;
   }
+}
+
+@media only screen and (max-width: 576px) {
+  .title {
+    font-size: 1.2rem;
+  }
+
+  .card-text {
+    font-size: 1rem;
+    width: 12rem;
+    text-align: center;
+  }
+
+ 
 }
