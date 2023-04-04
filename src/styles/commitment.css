@@ -27,10 +27,12 @@
 }
 
 .contents{
+    padding-left: 2rem;
     font-size: 1.5rem;
     line-height: 1.5;
-    text-align: right;
+    text-align: left;
     font-family: 'Work Sans', sans-serif;
+    color: rgb(121, 38, 89);
 }
 
 .head{
@@ -53,6 +55,7 @@
     padding-left: 10rem;
     padding-right: 10rem;
     font-size: 22px;
+    color: rgb(121, 38, 89);
 
 }
 

@@ -39,7 +39,7 @@ export const commitment = () => {
     <div>
       <div>
         <h1 className='head'>
-          Our Commitments , What we do 
+          OUR COMMITMENTS, WHAT WE DO 
         </h1>
         <p1 className='para'>
         We bring together the Global Community of Experts, Civil Society Organizations, Stakeholders, Policy Makers, Industry Groups To Deliberate & Create Recommendation Framework for G20. This will involve,
