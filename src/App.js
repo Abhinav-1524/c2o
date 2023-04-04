@@ -8,6 +8,7 @@ import Ben from './components/benefits.jsx'
 import Foot from './components/footer.jsx'
 import TimeLine from './components/TimeLine'
 import CardGrid from './components/Partner'
+import Com from './components/commitment'
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
    <>
    <Nav />
    <Vido />
+   <Com />
    <div>
     <Cardo />
    </div>

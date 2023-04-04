@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <footer className='footer_container'>
       <div className='footer_item'>
-        Funds will be collected and receipts disbursed through our partner entity – Traboda Solutions
+        Funds will be collected and receipts disbursed through our partner entity – Dev's
       </div>
 
     </footer>
