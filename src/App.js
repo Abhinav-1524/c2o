@@ -8,6 +8,7 @@ import Ben from './components/benefits.jsx'
 import Foot from './components/footer.jsx'
 import TimeLine from './components/TimeLine'
 import CardGrid from './components/Partner'
+import Footer from './components/Footer';
 
 
 function App() {
@@ -21,7 +22,9 @@ function App() {
    <TimeLine />
    <CardGrid />
    <Ben />
-   <Foot />
+    <Footer />
+
+
 
    </>
   );

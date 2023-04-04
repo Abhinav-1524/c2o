@@ -6,7 +6,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 8rem;
+  height: auto;
+  width:auto;
   color: aliceblue;
 }
 
@@ -26,6 +27,17 @@
     text-align: center;
   }
   .footer_item{
-    margin: 1rem;
+    margin-top: 5rem;
   }
+}
+
+
+
+.container-of{
+  margin:2rem;
+  text-align: left;
+  font-family: 'Work Sans', sans-serif;
+  height:auto;
+  width: auto;
+
 }
