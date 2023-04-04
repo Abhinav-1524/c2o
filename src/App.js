@@ -19,9 +19,6 @@ function App() {
    <Nav />
    <Vido />
    <Com />
-   <div>
-    <Cardo />
-   </div>
    <TimeLine />
    <CardGrid />
    <Ben />
