@@ -28,7 +28,7 @@ const Card9 = ({ icon, title, content }) => {
   return(
   <div className="co-card">
     <h3 className="titles">{title}</h3>
-    <div className='icons'><Icon9/></div>
+    <div className='icons1'><Icon9/></div>
     <p className="contents">{content}</p>
   </div>
 );}
