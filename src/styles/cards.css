@@ -32,14 +32,15 @@ background: linear-gradient(180deg, rgba(210,155,178,0.7399334733893557) 1%, rgb
 }
 
 .car-title {
-  margin: 0;
-  font-size: 0.5rem;
+  
+  font-size: 3rem;
   font-weight: 400;
   font-family: 'Work Sans', sans-serif;
-  align-items: center;
+  text-align: left;
+  align-items: start;
   padding: 30px;
- background: rgb(210,155,178);
-background: linear-gradient(180deg, rgba(210,155,178,0.7399334733893557) 1%, rgba(190,159,187,0.5382528011204482) 13%, rgba(255,255,255,0.5830707282913166) 86%, rgba(255,255,255,0.7231267507002801) 100%);
+
+
 }
 
 .Flex-Container {

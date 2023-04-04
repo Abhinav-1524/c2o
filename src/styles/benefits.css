@@ -26,18 +26,22 @@
 }
 .benefit-card {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  overflow-x: hidden;
+  align-items: start;
+  justify-content: left;
   background-color: #ffffff;
   
   border-radius: 10px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
   transition: all 0.3s ease;
   text-align: center;
-  font-family: 'Work Sans', sans-serif;
-  
-  
+  font-family: 'Work Sans', sans-serif;  
+}
+#inner{
+  width: 100%;
+  overflow: auto;
+  height: 100%;
+  padding-right: 15px;
 }
 
 .benefit-card:hover {
@@ -46,6 +50,7 @@
 }
 
 .benefit-title {
+  padding-right: 1rem;
   font-size: 2rem;
   font-weight: bold;
   margin-bottom: 10px;
@@ -58,11 +63,18 @@
 }
 
 .benefits_whole {
-  background-color: #B9D2E2;
+  background-color: white;
 }
 
 .descr {
-  text-align: center;
+  text-align: left;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 23px;
+}
+
+.descr-dia {
+  margin-top: 2rem;
+  text-align: left;
   font-family: 'Work Sans', sans-serif;
   font-size: 23px;
 }
@@ -155,3 +167,36 @@ button:hover {
     font-size: 17px;
   }
 }
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  padding: 0.5em 1em;
+  font-size: 1.25em;
+  
+  border: none;
+  border-radius: 25px;
+  background-color: #03105c;
+  color: #fff;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  margin:1rem;
+}
+
+button:hover {
+  background-color: #0062cc;
+  transform: scale(1.2);
+  
+}
+
+button:active {
+  background-color: #005cbf;
+}
+
+.card-body{
+  background-color: white;
+}
+
