@@ -9,6 +9,8 @@ import Foot from './components/footer.jsx'
 import TimeLine from './components/TimeLine'
 import CardGrid from './components/Partner'
 import Com from './components/commitment'
+import Footer from './components/Footer';
+
 
 
 function App() {
@@ -23,7 +25,9 @@ function App() {
    <TimeLine />
    <CardGrid />
    <Ben />
-   <Foot />
+    <Footer />
+
+
 
    </>
   );
