@@ -11,9 +11,7 @@ const Footer = () => {
       <div className='footer_item'>
         Funds will be collected and receipts disbursed through our partner entity – Traboda Solutions
       </div>
-      <div className='footer_item'>
-        © 2023 Tailwind Elements. All rights reserved.
-      </div>
+
     </footer>
   );
 };

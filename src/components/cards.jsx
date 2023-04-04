@@ -5,7 +5,7 @@ const Card = ({title}) => (
   <div className="col-lg-4 col-md-6 mb-4">
     <div className="card rounded-lg overflow-hidden shadow-md transform transition hover:scale-110">
       <div className="cards_1 ">
-        <h3 className="car-title text-center text-xl sm:text-2xl">{title}</h3>
+        <h3 className="car-title">{title}</h3>
       </div>
     </div>
   </div>

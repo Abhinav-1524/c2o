@@ -10,7 +10,7 @@ const buttonsid = [
   },
   {
     id: "#partnership",
-    button: "Why Partner With Us?",
+    button: "Partnership",
   },
   {
     id: "#calender",
@@ -18,7 +18,7 @@ const buttonsid = [
   },
   {
     id: "#commitment",
-    button: "Our Commitments",
+    button: "Commitments",
   },
   {
     id: "#about",

@@ -6,7 +6,8 @@ import Cardo from './components/cards.jsx'
 import Partner from './components/partnership.jsx'
 import Ben from './components/benefits.jsx'
 import Foot from './components/footer.jsx'
-import TimeLine from './TimeLine'
+import TimeLine from './components/TimeLine'
+import CardGrid from './components/Partner'
 
 
 function App() {
@@ -18,7 +19,7 @@ function App() {
     <Cardo />
    </div>
    <TimeLine />
-   <Partner />
+   <CardGrid />
    <Ben />
    <Foot />
 

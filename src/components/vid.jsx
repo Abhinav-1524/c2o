@@ -17,8 +17,7 @@ const About = () => {
         <div className="overlay">
           <div className="overlay-content">
             <h1>Technology And Security For One World</h1>
-            <Button 
-              variant="primary" 
+            <Button  
               className="register-button"
               onClick={handleClick_regnow}
             >
