@@ -26,7 +26,7 @@ const buttonsid = [
   }
 ];
 
-const Header = () => {g
+const Header = () => {
   return (
     <Navbar expand="md" className="header">
       <Container>
