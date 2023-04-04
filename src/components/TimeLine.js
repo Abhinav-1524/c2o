@@ -162,7 +162,7 @@ function Timeline() {
           <div className="col-6 text-right">
             <h5 className="right-heading">MARCH 20-22</h5>
             <p className="right-para">
-              Nagpur Incepticon Meeting In Nagpur
+              Nagpur Inception Meeting In Nagpur
             </p>
           </div>
           <div className="col-2 text-center full d-inline-flex justify-content-center align-items-center">
