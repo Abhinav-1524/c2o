@@ -16,11 +16,11 @@ const ThreeColumnLayout = () => {
         <hr></hr>
         <p>
         <ul>
-            <li> Education and Digital Transformation</li>
-            <li>Gender Equality & Disability</li>
-            <li>Integrated Holistic Health</li>
-            <li>Sustainable abd Resilient Communities</li>
-            <li>Technology Security and Transperancy</li>
+            <li><a href="https://c20.amma.org/edt-wg/">Education and Digital Transformation</a></li>
+            <li><a href="https://c20.amma.org/ged-wg/">Gender Equality & Disability</a></li>
+            <li><a href="https://c20.amma.org/ihh-wg/">Integrated Holistic Health</a></li>
+            <li><a href="https://c20.amma.org/sustainable-and-resilient-communities/">Sustainable abd Resilient Communities</a></li>
+            <li><a href="https://c20.amma.org/tst-wg/">Technology Security and Transperancy</a></li>
         </ul>
         </p>
       </div>
@@ -31,10 +31,10 @@ const ThreeColumnLayout = () => {
         <hr></hr>
         <p className='footer-items'>
             <ul>
-                <li>News</li>
-                <li>Events</li>
-                <li>G20 India Portal</li>
-                <li>C20 India Portal</li>
+                <li><a href="https://c20.amma.org/news/">News</a></li>
+                <li><a href="https://c20.amma.org/events/">Events</a></li>
+                <li><a href="https://www.g20.org/en/">G20 India Portal</a></li>
+                <li><a href="https://civil20.net/">C20 India Portal</a></li>
             </ul>
         </p>
       </div>

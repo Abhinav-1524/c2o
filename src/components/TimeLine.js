@@ -24,7 +24,7 @@ function Timeline() {
   return (
     <div className="time">
       <div className="container">
-        <h2 className="heading">EVENTS</h2>
+        <h2 id="calender" className="heading">CALENDER</h2>
         {/* first section */}
         <FadeInWhenVisible>
         <div className="row align-items-center how-it-works d-flex">

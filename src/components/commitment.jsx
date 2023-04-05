@@ -38,7 +38,7 @@ export const commitment = () => {
   return (
     <div>
       <div>
-        <h1 className='head'>
+        <h1 id="commitment" className='head'>
           OUR COMMITMENTS, WHAT WE DO 
         </h1>
         <p1 className='para'>

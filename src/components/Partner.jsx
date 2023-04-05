@@ -70,7 +70,7 @@ const Card6 = ({ icon, title, content }) => {
 
 const CardGrid = () => (
   <div>
-  <h1 className='heading'>WHY PARTNER WITH US</h1>
+  <h1 id="partnership" className='heading'>WHY PARTNER WITH US</h1>
   <div className="card-grid">
     <div className="card-column">
       <Card1    
