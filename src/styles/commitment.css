@@ -74,4 +74,48 @@
     width: 55rem;
     height: 16rem;
     margin-left: 33rem;
+<<<<<<< HEAD
 }
+=======
+}
+
+
+@media only screen and (max-width: 768px) {
+    .head {
+      font-size: 30px;
+    }
+  
+    .para {
+      padding-left: 2rem;
+      padding-right: 2rem;
+      font-size: 18px;
+    }
+  
+    .co-card {
+      flex-direction: column;
+      align-items: flex-start;
+      width: 100%;
+      margin-left: 0;
+      padding: 10px;
+    }
+  
+    .icons1,
+    .icons {
+      width: 50px;
+      height: 50px;
+      margin-right: 1rem;
+    }
+  
+    .titles {
+      font-size: 24px;
+      margin-bottom: 0.5rem;
+    }
+  
+    .contents {
+      font-size: 16px;
+      line-height: 1.5;
+      text-align: left;
+    }
+  }
+  
+>>>>>>> aniketh

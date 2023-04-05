@@ -23,7 +23,11 @@ const Footer = () => {
       </Row>
     </Container>
       <div className='footer_item'>
+<<<<<<< HEAD
         Funds will be collected and receipts disbursed through our partner entity – Dev's
+=======
+        Funds will be collected and receipts disbursed through our partner entity – Traboda CyberLabs
+>>>>>>> aniketh
       </div>
 
     </footer>

@@ -26,12 +26,12 @@ const About = () => {
           </div>
         </div>
       </div>
-
-      <Container className="mt-5 text-center d-md-none">
+<div className='parent'>
+      <Container className="container-change">
         <Row>
           <Col>
             <h1 className="text-4xl md:text-7xl text-orange-500 font-extrabold font-serif hidden md:block d-md-none">
-              Technology and Security for One World
+              
             </h1>
           </Col>
         </Row>
@@ -39,7 +39,7 @@ const About = () => {
           <Col>
             <Button 
               variant="primary" 
-              className="px-5 py-3 rounded-pill shadow hover-bg-cover d-md-none"
+              className="px-3 py-3 rounded-pill shadow hover-bg-cover d-md-none"
               onClick={handleClick_regnow}
             >
               REGISTER NOW
@@ -47,6 +47,7 @@ const About = () => {
           </Col>
         </Row>
       </Container>
+      </div>
     </>
   )
 }
