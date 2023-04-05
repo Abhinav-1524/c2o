@@ -15,17 +15,14 @@ import Footer from './components/Footer';
 function App() {
   return (
    <>
-   <Nav />
-   <Vido />
-   <Com />
-   <TimeLine />
-   <CardGrid />
-   <Ben />
+    <Nav />
+    <Vido />
+    <Com />
+    <TimeLine />
+    <CardGrid />
+    <Ben />
     <Footer />
-
-
-
-   </>
+  </>
   );
 }
 

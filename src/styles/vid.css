@@ -25,7 +25,7 @@
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 2;
   opacity:0;
-  transition:visibility 0.3s linear,opacity 0.3s linear;
+  
 
 }
 
@@ -95,6 +95,7 @@
 
   .overlay-content {
     text-align: center;
+    
   } 
 
   .overlay-content h1 {
@@ -124,8 +125,4 @@
 
 .register-button{
   font-family: Copperplate, serif;
-}
-
-.parent{
-  opacity: 0;
 }
