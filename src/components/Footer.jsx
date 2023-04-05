@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/Footer.css'; 
+import logo from '../images/amrita-c20-logo-white-modified.svg'
 
 const ThreeColumnLayout = () => {
   return (
@@ -10,17 +11,20 @@ const ThreeColumnLayout = () => {
         <hr></hr>
         <p className='footer-items'>Civil 20 Engagement Group provides a platform for Civil Society Organisations (CSO) worldwide to voice the people's aspirations with the world's leaders in G20.
         </p>
+        <div className='logo_wrapper'>
+        <img src={logo} alt='logo' className='logo'/>
+        </div>
       </div>
       <div className="column">
         <h4 className='heading_footer'>Working Groups</h4>
         <hr></hr>
         <p>
         <ul>
-            <li><a href="https://c20.amma.org/edt-wg/">Education and Digital Transformation</a></li>
-            <li><a href="https://c20.amma.org/ged-wg/">Gender Equality & Disability</a></li>
-            <li><a href="https://c20.amma.org/ihh-wg/">Integrated Holistic Health</a></li>
-            <li><a href="https://c20.amma.org/sustainable-and-resilient-communities/">Sustainable abd Resilient Communities</a></li>
-            <li><a href="https://c20.amma.org/tst-wg/">Technology Security and Transperancy</a></li>
+            <li><a href="https://c20.amma.org/edt-wg/" target="_blank" rel="noreferrer">Education and Digital Transformation</a></li>
+            <li><a href="https://c20.amma.org/ged-wg/" target="_blank" rel="noreferrer">Gender Equality & Disability</a></li>
+            <li><a href="https://c20.amma.org/ihh-wg/" target="_blank" rel="noreferrer">Integrated Holistic Health</a></li>
+            <li><a href="https://c20.amma.org/sustainable-and-resilient-communities/" target="_blank" rel="noreferrer">Sustainable abd Resilient Communities</a></li>
+            <li><a href="https://c20.amma.org/tst-wg/" target="_blank" rel="noreferrer">Technology Security and Transperancy</a></li>
         </ul>
         </p>
       </div>
@@ -31,10 +35,10 @@ const ThreeColumnLayout = () => {
         <hr></hr>
         <p className='footer-items'>
             <ul>
-                <li><a href="https://c20.amma.org/news/">News</a></li>
-                <li><a href="https://c20.amma.org/events/">Events</a></li>
-                <li><a href="https://www.g20.org/en/">G20 India Portal</a></li>
-                <li><a href="https://civil20.net/">C20 India Portal</a></li>
+                <li><a href="https://c20.amma.org/news/" target="_blank" rel="noreferrer">News</a></li>
+                <li><a href="https://c20.amma.org/events/" target="_blank" rel="noreferrer">Events</a></li>
+                <li><a href="https://www.g20.org/en/" target="_blank" rel="noreferrer">G20 India Portal</a></li>
+                <li><a href="https://civil20.net/" target="_blank" rel="noreferrer">C20 India Portal</a></li>
             </ul>
         </p>
       </div>
