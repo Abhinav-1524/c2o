@@ -16,7 +16,7 @@ const About = () => {
         </video>
         <div className="overlay">
           <div className="overlay-content">
-            <h1></h1>
+            <h1>Technology And Security For One World</h1>
             <Button  
               className="register-button"
               onClick={handleClick_regnow}
