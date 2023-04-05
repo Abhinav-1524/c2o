@@ -39,9 +39,10 @@ const About = () => {
           <Col>
             <Button 
               variant="primary" 
-              className="px-5 py-3 rounded-pill shadow hover-bg-cover d-md-none"
-              onClick={handleClick_regnow}>
-              REGISTER LATER
+              className="px-3 py-3 rounded-pill shadow hover-bg-cover d-md-none"
+              onClick={handleClick_regnow}
+            >
+              REGISTER NOW
             </Button>
           </Col>
         </Row>

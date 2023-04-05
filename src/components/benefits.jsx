@@ -4,6 +4,7 @@ import '../styles/benefits.css';
 import cover1 from '../images/cover1.png';
 
 
+
 function handleClick_contribute() {
   window.location.href = 'https://traboda.com/';
 }
@@ -11,6 +12,7 @@ function handleClick_contribute() {
 
 function Benefits() { 
   return (
+    
     <div className=' benefits_whole  rounded-t-lg:rounded-lg'>
       <h1 id="benefits" className='benefits1'>Partnership Benefits 
         <p className='text-center text-4xl text-amber-600 m-6'></p>

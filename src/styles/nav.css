@@ -4,7 +4,8 @@
 .navbar {
   font-family: 'Work Sans', sans-serif;
   font-weight: 500;
-  background-color: #B9D2E2;
+  background-color: #f3f4f6;
+  position: relative;
 }
 
 .navbar .nav-link {
@@ -13,7 +14,6 @@
   text-decoration: none;
   transition: color 0.2s ease-in-out;
 }
-
 
 .navbar .nav-link:hover {
   color: #af7200d3;
@@ -29,6 +29,12 @@
   color: #000;
   border-radius: 0.25rem;
   width: auto;
+  display: block;
+  z-index: 1;
+  position: absolute;
+  top: 33%;
+  transform: translateY(-50%);
+  right: 1rem;
 }
 
 .navbar-toggler:focus,
@@ -38,10 +44,19 @@
 
 @media (min-width: 860px) {
   .navbar-toggler {
-    display: block;
-    position: static;
-    left: auto;
-    right: 0;
-    top: 50;
+    display: none;
   }
+}
+
+/* Header styles */
+.logo {
+  height: 60px;
+}
+
+.header {
+  padding: 10px 0;
+}
+
+.nav-items {
+  text-align: right;
 }
