@@ -71,6 +71,10 @@
   opacity: 0;
 }
 
+.parent {
+  opacity: 0  ;
+}
+
 @media (max-width: 768px) {
   .video-container {
     height: auto;
@@ -85,6 +89,9 @@
     height: 100%;
   }
 
+  .parent {
+    opacity: 1;
+  }
 
   .tech {
     font-family: Copperplate, serif;
@@ -138,3 +145,5 @@
 .register-button{
   font-family: Copperplate, serif;
 }
+
+
