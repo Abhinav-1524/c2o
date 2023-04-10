@@ -9,7 +9,7 @@ import {
 } from 'react-accessible-accordion';
 
 // Demo styles, see 'Styles' section below for some notes on use.
-import './Accordian.css'
+import '../styles/Accordian.css'
 
 export default function Events() {
     return (
