@@ -16,13 +16,14 @@ const About = () => {
         </video>
         <div className="overlay">
           <div className="overlay-content">
-            <h1></h1>
+            <h1>Technology And Security For One World</h1>
+            <a href="https://www.eventbrite.com/e/technology-and-security-for-one-world-tickets-598507230237" target="_blank">
             <Button  
               className="register-button"
-              onClick={handleClick_regnow}
             >
               REGISTER NOW
             </Button>
+            </a>
           </div>
         </div>
       </div>
@@ -30,20 +31,22 @@ const About = () => {
       <Container className="container-change">
         <Row>
           <Col>
-            <h1 className="text-4xl md:text-7xl text-orange-500 font-extrabold font-serif hidden md:block d-md-none">
+            <h1 className="tech">
             Technology And Security For One World
             </h1>
           </Col>
         </Row>
         <Row className="mt-4">
           <Col>
+          <a href="https://www.eventbrite.com/e/technology-and-security-for-one-world-tickets-598507230237" target="_blank">
             <Button 
               variant="primary" 
-              className="px-3 py-3 rounded-pill shadow hover-bg-cover d-md-none"
+              className="reg_now"
               onClick={handleClick_regnow}
             >
               REGISTER NOW
             </Button>
+            </a>
           </Col>
         </Row>
       </Container>
