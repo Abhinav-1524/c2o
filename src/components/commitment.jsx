@@ -27,7 +27,7 @@ const Card9 = ({ icon, title, content }) => {
   return(
   <div className="co-card">
     <h3 className="titles">{title}</h3>
-    <div className='icons1'><Icon9/></div>
+    <div className='icons3'><Icon9/></div>
     <p className="contents">{content}</p>
   </div>
 );}
@@ -44,6 +44,8 @@ export const commitment = () => {
         We bring together the Global Community of Experts, Civil Society Organizations, Stakeholders, Policy Makers, Industry Groups To Deliberate & Create Recommendation Framework for G20. This will involve,
         </p1>
       </div>
+
+        <div className='quards'>
         <Card7 
         content="Presentation of Worldwide Best Practices in Technology for Empowerment AI & Data for Society Transparency, Trust and Disinformation Safety, Security and Resilience."
          />
@@ -55,6 +57,7 @@ export const commitment = () => {
         <Card9 
         content="Novel Platform to Amplify the Voice of Thousands of Worldwide Civil Societies."
         />
+        </div>
 
 
     </div>
