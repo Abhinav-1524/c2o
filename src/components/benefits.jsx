@@ -1,13 +1,12 @@
 import React from 'react';
 import { Card, Col, Container, Row } from 'react-bootstrap';
 import '../styles/benefits.css';
-import cover1 from '../images/cover1.png';
 
 
 
-function handleClick_contribute() {
-  window.location.href = 'https://traboda.com/';
-}
+// eslint-disable-next-linefunction handleClick_contribute() {
+  // eslint-disable-next-linewindow.location.href = 'https://traboda.com/';}
+
 
 
 function Benefits() { 

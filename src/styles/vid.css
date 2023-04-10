@@ -71,6 +71,10 @@
   opacity: 0;
 }
 
+.parent {
+  opacity: 0  ;
+}
+
 @media (max-width: 768px) {
   .video-container {
     height: auto;
@@ -85,6 +89,21 @@
     height: 100%;
   }
 
+  .parent {
+    opacity: 1;
+  }
+
+  .tech {
+    font-family: Copperplate, serif;
+    text-align: center;
+    padding-top: 2rem;
+  }
+
+  .reg_now{
+    border-radius: 27px !important;
+    padding: 12px !important;  
+    margin-left: 120px;  
+  }
   .overlay {
     position: relative;
     width: 100%;
@@ -126,3 +145,5 @@
 .register-button{
   font-family: Copperplate, serif;
 }
+
+

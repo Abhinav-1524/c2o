@@ -1,5 +1,4 @@
 import React from 'react'
-import { Card, Col, Container, Row } from 'react-bootstrap';
 import {ReactComponent as Icon7} from '../images/download.svg'
 import {ReactComponent as Icon8} from '../images/download (1).svg'
 import {ReactComponent as Icon9} from '../images/download (2).svg'

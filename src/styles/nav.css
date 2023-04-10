@@ -5,11 +5,7 @@
   font-family: 'Work Sans', sans-serif;
   font-weight: 500;
   background-color: #f3f4f6;
-
   position: relative;
-
-  position: relative;
-
 }
 
 .navbar .nav-link {
@@ -36,9 +32,10 @@
   display: block;
   z-index: 1;
   position: absolute;
-  top: 33%;
-  transform: translateY(-50%);
+  top: 12%;
   right: 1rem;
+  transition: none !important;
+  
 }
 
 .navbar-toggler:focus,
@@ -49,6 +46,11 @@
 @media (min-width: 860px) {
   .navbar-toggler {
     display: none;
+  }
+  
+  .navbar-expand-md .navbar-collapse {
+    display: flex !important;
+    justify-content: flex-end;
   }
 }
 

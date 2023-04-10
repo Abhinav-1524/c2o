@@ -78,3 +78,13 @@ a:hover{
     transition: duration 1s;
     color:grey;
 }
+
+.logo_wrapper{
+    width: 8rem;
+    height: 8rem;
+}
+
+.logo{
+    width: 100%;
+    height: 100%;
+}

@@ -17,7 +17,9 @@ const About = () => {
         <div className="overlay">
           <div className="overlay-content">
             <h1>Technology And Security For One World</h1>
+
             <a href="https://www.eventbrite.com/e/technology-and-security-for-one-world-tickets-598507230237" target="_blank">
+
             <Button  
               className="register-button"
             >
