@@ -28,13 +28,13 @@ const buttonsid = [
 
 const Header = () => {
   return (
-    <Navbar expand="md" className="header">
+    <Navbar expand="md">
       <Container>
         <Navbar.Brand href="https://www.g20.org/en/">
           <img src={logo} alt="logo" className="logo" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" className="nav-toggle" />
-        <Navbar.Collapse id="basic-navbar-nav">
+        <Navbar.Collapse id="basic-navbar-nav" className='"nav-coll'>
           <Nav className="nav-items ms-auto">
             {buttonsid.map((button) => (
               <Nav.Link href={button.id} className="nav-link mx-2" key={button.id}>
