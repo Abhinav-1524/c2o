@@ -3,6 +3,7 @@ import {ReactComponent as Icon7} from '../images/download.svg'
 import {ReactComponent as Icon8} from '../images/download (1).svg'
 import {ReactComponent as Icon9} from '../images/download (2).svg'
 import '../styles/commitment.css'
+import { Card } from 'react-bootstrap'
 
 
 const Card7 = ({ icon, title, content }) => {
@@ -36,6 +37,7 @@ const Card9 = ({ icon, title, content }) => {
 export const commitment = () => {
   return (
     <div>
+      <Card className='commit'>
       <div>
         <h1 id="commitment" className='head'>
           OUR COMMITMENTS, WHAT WE DO 
@@ -59,7 +61,7 @@ export const commitment = () => {
         />
         </div>
 
-
+      </Card>
     </div>
   )
 }

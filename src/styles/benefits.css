@@ -70,7 +70,10 @@
   font-family: 'Work Sans', sans-serif;
   font-size: 1.25rem;
   color: rgb(121, 38, 89);
+  padding-bottom: 54px;
+  margin-top: 27px;
 }
+
 
 .descr-dia {
   margin-top: 2rem;
@@ -195,11 +198,11 @@ button {
   margin:1rem;
 }
 
-button:hover {
+/* button:hover {
   background-color: #0062cc;
   transform: scale(1.2);
   
-}
+} */
 
 button:active {
   background-color: #005cbf;

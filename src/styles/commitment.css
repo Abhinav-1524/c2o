@@ -13,8 +13,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100px !important;
-    height: 100px !important;
+    width: 76px !important;
+    height: 91px !important;
     padding-bottom: 1rem;
     scale: 1rem;
     border-radius: 50%;
@@ -26,8 +26,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100px !important;
-  height: 100px !important;
+  width: 76px !important;
+  height: 91px !important;
   padding-bottom: 3rem;
   scale: 1rem;
   border-radius: 50%;
@@ -53,10 +53,11 @@
 
     margin-top: 1rem;
     margin-bottom: 1rem;
-    background-color: white;
+    background-color: #f8f9fA;
     text-align: center;
     font-family: Copperplate;
     font-size: 50px;
+    padding-top: 1rem;
 
 }
 
@@ -65,7 +66,7 @@
     align-items: center;
     text-align: center;
     padding-top: 1rem;
-    padding-bottom: 6rem;
+    padding-bottom: 4rem;
     padding-left: 10rem;
     padding-right: 10rem;
     font-size: 22px;
@@ -75,27 +76,37 @@
 }
 
 .co-card{
-    /* background-color: #F8F9FA; */
-    /* border: 1px solid #ccc; */
+    background-color: #F8F9FA;
+    border: 1px solid #ccc;
     border-radius: 4px;
     padding: 20px;
-    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     border-radius: 10px;
   
     display: flex;
     flex-direction: column;
     align-items: center;
     transition: transform 0.2s ease-in;
-    width: 25rem;
-    height: 28rem;
-    margin-left: 11rem;
+    width: 32rem;
+    height: 24rem;
+    margin-left: 3.5rem;
 
 
+}
+
+.commit {
+
+  width: 110rem;
+  height: 44rem;
+  margin-left: 5rem;
+  transform: none !important;
+  transition: none !important;
 }
 
 .quards {
   display: flex;
   flex-direction: row;
+  padding-right: 1rem !important;
 }
 
 @media (max-width: 950px) {
@@ -157,5 +168,31 @@
       line-height: 1.5;
       text-align: left;
     }
+
   }
 
+@media (max-width:768px) {
+
+  .commit{
+    width: 21rem;
+    height: 69rem;
+    margin-left: 36px;
+  }
+
+  .quards{
+    margin-left: 20px;
+  }
+
+  .icons1, .icons3 {
+    opacity: 0;
+    position: sticky;
+  }
+ 
+  .co-card {
+    display: flex;
+    height: 225px;
+    table-layout: unset;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+}
