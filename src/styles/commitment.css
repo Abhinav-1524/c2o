@@ -196,3 +196,18 @@
     align-items: center;
   }
 }
+
+@media (max-width:1500px) {
+  .commit{
+    width: 84rem !important; 
+    height: 44rem;
+    margin-left: 66px;
+  }
+  .contents{
+    font-size: 21px;
+  }
+
+  .co-card {
+    margin-left: 1.5rem;
+  }
+}
