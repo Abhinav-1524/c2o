@@ -5,7 +5,7 @@ import Vido from './components/vid.jsx'
 import Cardo from './components/cards.jsx'
 import Partner from './components/partnership.jsx'
 import Ben from './components/benefits.jsx'
-import TimeLine from './components/Accordion'
+import TimeLine from './components/TimeLine'
 import CardGrid from './components/Partner'
 import Com from './components/commitment'
 import Footer from './components/Footer';
@@ -18,7 +18,7 @@ function App() {
     <Nav />
     <Vido />
     <Com />
-    <TimeLine />
+<TimeLine />
     <CardGrid />
     <Ben />
     <Footer />
