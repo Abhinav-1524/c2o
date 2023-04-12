@@ -102,6 +102,13 @@
     
     .colcard {
       width: 29rem;
-      height: 15rem;
+      height: 16rem;
+    }
+  }
+
+  @media (max-width:1400px) {
+    .colcard {
+      width: 26rem;
+      height:16rem;
     }
   }
