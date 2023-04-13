@@ -1,5 +1,5 @@
 import React from 'react';
-import about from '../images/vid.webm';
+import about from '../images/c20-tst-header.jpg';
 import { Button, Container, Row, Col } from 'react-bootstrap';
 import '../styles/vid.css';
 
@@ -11,10 +11,9 @@ const About = () => {
   return (
     <>
       <div className="video-container">
-        <video className="video" autoPlay loop muted>
-          <source src={about} type="video/mp4" />
-        </video>
-        <div className="overlay">
+      <img src={about} 
+      alt="Logo" className='c20'/>
+        {/* <div className="overlay">
           <div className="overlay-content">
             <h1>Technology And Security For One World</h1>
 
@@ -27,9 +26,9 @@ const About = () => {
             </Button>
             </a>
           </div>
-        </div>
+        </div> */}
       </div>
-<div className='parent'>
+{/* <div className='parent'>
       <Container className="container-change">
         <Row>
           <Col>
@@ -51,7 +50,7 @@ const About = () => {
           </Col>
         </Row>
       </Container>
-      </div>
+      </div> */}
     </>
   )
 }
