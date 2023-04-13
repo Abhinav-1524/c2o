@@ -4,17 +4,17 @@ import { Container, Navbar, Nav } from 'react-bootstrap';
 import "../styles/nav.css";
 
 const buttonsid = [
-  {
-    id: "#benefits",
-    button: "Benefits",
-  },
+  // {
+  //   id: "#benefits",
+  //   button: "Benefits",
+  // },
   {
     id: "#partnership",
     button: "Partnership",
   },
   {
-    id: "#calender",
-    button: "Calendar",
+    id: "#events",
+    button: "Events",
   },
   {
     id: "#commitment",
@@ -23,7 +23,13 @@ const buttonsid = [
   {
     id: "#about",
     button: "About",
+  },{
+
+    id : "#benefits",
+    button: "Why Partner Us" 
   }
+
+
 ];
 
 const Header = () => {
