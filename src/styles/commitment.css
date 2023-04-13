@@ -175,7 +175,7 @@
 @media (max-width:768px) {
 
   .commit{
-    width: 21rem;
+    width: 21rem ;
     height: 73rem;
     margin-left: 36px;
     margin-top: 31px;
@@ -199,9 +199,9 @@
   }
 }
 
-@media (max-width:1500px) {
+@media (min-width: 1400px) and (max-width:1500px) {
   .commit{
-    width: 84rem !important; 
+    width: 84rem ; 
     height: 44rem;
     margin-left: 66px;
   }
@@ -214,10 +214,10 @@
   }
 }
 
-@media (max-width:1400px) {
+@media (min-width: 768px) and (max-width:1400px) {
 
   .commit{
-    width: 77rem !important;
+    width: 77rem ;
 
   }
 
