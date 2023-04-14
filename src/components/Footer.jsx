@@ -23,7 +23,7 @@ const ThreeColumnLayout = () => {
             <li><a href="https://c20.amma.org/edt-wg/" target="_blank" rel="noreferrer">Education and Digital Transformation</a></li>
             <li><a href="https://c20.amma.org/ged-wg/" target="_blank" rel="noreferrer">Gender Equality & Disability</a></li>
             <li><a href="https://c20.amma.org/ihh-wg/" target="_blank" rel="noreferrer">Integrated Holistic Health</a></li>
-            <li><a href="https://c20.amma.org/sustainable-and-resilient-communities/" target="_blank" rel="noreferrer">Sustainable abd Resilient Communities</a></li>
+            <li><a href="https://c20.amma.org/sustainable-and-resilient-communities/" target="_blank" rel="noreferrer">Sustainable and Resilient Communities</a></li>
             <li><a href="https://c20.amma.org/tst-wg/" target="_blank" rel="noreferrer">Technology Security and Transperancy</a></li>
         </ul>
         </p>
